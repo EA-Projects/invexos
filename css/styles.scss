@@ -12,11 +12,11 @@ $dark-grey: #33302D;
 $light-grey: #B1A395;
 
 *{
-    font-family: "Montserrat", sans-serif;
     scroll-behavior: smooth;
 }
 
 body {
+    font-family: "Montserrat", sans-serif;
     background-color: $dark-bg;
     overscroll-behavior: none;
 }
@@ -243,7 +243,7 @@ nav{
     .inner-content{
         text-align: center;
         h1{
-            max-width: 850px;
+            max-width: 750px;
             margin: 0 auto 20px;
             span{
                 background: -webkit-linear-gradient(360deg,#FFD6BD 0%, #F37223 100%);
@@ -424,7 +424,7 @@ footer{
     background: none;
     .inner-content{
         h1{
-            max-width: 900px;
+            max-width: 850px;
         }
         .wrapper-animation{
             max-width: 810px;
