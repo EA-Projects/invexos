@@ -162,6 +162,24 @@ p, .p{
     }
 }
 
+ul,ol{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    li{
+        font-size: 16px;
+        line-height: 150%;
+        font-weight: 400;
+        letter-spacing: -0.01em;
+        color: $dark-grey;
+        margin-bottom: 12px;
+        strong{
+            font-weight: 600;
+            color: $dark-bg;
+        }
+    }
+}
+
 .button{
     display: inline-block;
     text-decoration: none;
@@ -502,7 +520,7 @@ footer{
         align-items: flex-end;
         .inner-description{
             width: 100%;
-            max-width: 650px;
+            max-width: 700px;
             h3{
                 color: $dark-bg;
             }
@@ -522,8 +540,8 @@ footer{
             img{
                 position: absolute;
                 top: 30px;
-                right: -10px;
-                max-width: 405px;
+                right: 20px;
+                max-width: 300px;
                 pointer-events: none;
             }
             div{
@@ -579,9 +597,21 @@ footer{
         margin-top: 40px;
         color: $dark-bg;
     }
+
     p, .p{
         color: $dark-grey;
         margin-bottom: 12px;
+        strong{
+            font-weight: 600;
+        }
+        a,strong,span{
+            color: $dark-bg;
+        }
+        a{
+            &:hover{
+                text-decoration: underline;
+            }
+        }
     }
     @media (max-width: 575px){
         padding: 70px 0;
