@@ -425,6 +425,7 @@ footer{
             .wrapper-form{
                 form{
                     input:not(.button){
+                        width: 100%;
                         min-width: auto;
                     }
                 }
