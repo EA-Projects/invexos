@@ -62,7 +62,7 @@ window.addEventListener('load', function() {
     if ($('#newsletter-form').length) {
         $(function () {
             const scriptURL =
-                'https://script.google.com/macros/s/AKfycbz6Z2Iu41PYWTbMz9Snl43ojeWLMoZkU9L3xcF6N06thpjXT1Wy2D9m5dR4XrNfZrVJ/exec';
+                'https://script.google.com/macros/s/AKfycby6A-nnE-N4-D3ppIe-qxys11rmKyyATpbkkexDdF6ODBy5VyTZDd7JgMG6F_OU9TWn/exec';
             const form = document.getElementById('newsletter-form');
         
             form.addEventListener('submit', (e) => {
